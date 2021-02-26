@@ -171,9 +171,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   knobRight: {fileID: 11400000, guid: b6740757f2f3b984a8b47a4303f1e225, type: 2}
   knobLeft: {fileID: 11400000, guid: 399cb71c95105a6408958ad50b80d940, type: 2}
-  forwardSpeed: 0.01
-  strafeSpeed: 0.01
-  hoverSpeed: 5
+  forwardSpeed: 1
+  strafeSpeed: 0.5
+  forwardAceleration: 1
+  strafeAceleration: 0.5
+  lookRateSpeed: 0.2
 --- !u!65 &42425430
 BoxCollider:
   m_ObjectHideFlags: 0
